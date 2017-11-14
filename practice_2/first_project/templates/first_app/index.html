@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Puppy</title>
+    <link rel="stylesheet" href="{% static 'css/mystyle.css' %}">
+</head>
+<body>
+    <div>
+        <h1>Cute puppy</h1>
+        <img src="{% static 'images/hqdefault.jpg' %}" alt="Error loading puppy image">
+    </div>
+    {{ insert_me }}
+</body>
+</html>
